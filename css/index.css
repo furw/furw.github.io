@@ -31,7 +31,7 @@ body {
 img {
 	width: 200px;
 	height: 200px;
-	border-radius: 200px;
+/* 	border-radius: 200px; */
 	margin-top: 8vh;
 /* 	border: 3px solid #888; */
 }
