@@ -31,9 +31,9 @@ body {
 img {
 	width: 160px;
 	height: 200px;
-/* 	border-radius: 200px; */
+	border-radius: 200px;
 	margin-top: 8vh;
-/* 	border: 3px solid #888; */
+	border: 3px solid #888;
 }
 
 p {
