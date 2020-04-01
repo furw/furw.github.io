@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -8,44 +7,70 @@
 		<link rel="stylesheet" href="css/index.css" />
 	</head>
 
+	<script>
+		function fun(num) {
+			switch (num) {
+				case 1:
+					window.open("https://www.zhihu.com/people/furuiwei/activities");
+					break;
+				case 2:
+					window.open("http://music.163.com/#/user/home?id=69110901")
+					break;
+				case 3:
+					window.open("https://github.com/furw")
+					break;
+				case 4:
+					window.open("https://my.oschina.net/furw")
+					break;
+				case 5:
+					window.open("https://gitee.com/Warehouse")
+					break;
+				case 6:
+					window.open("http://www.linkedin.com/in/furuiwei")
+					break;
+				default:
+			}
+		}
+	</script>
+
 	<body>
 
-		<div class="content">
-			<div class="head">
-
-				<img src="img/tx.jpg" />
-				<p>furuiwei - Developer </p>
-
+		<div class="_body">
+			<div class="_head">
+				<img class="tx" src="img/tx.jpg" />
+				<p class="name">furuiwei - Developer </p>
+				<p class="describe">前端工程师，擅长各项前端技能，深入研究移动端开发与前端性能, 喜欢折腾新技术。</p>
 			</div>
 
 			<div class="_centent">
 				<ul>
-					<li>
-						<a target="view_window" href="https://www.zhihu.com/people/furuiwei/activities">知乎</a>
+					<li onclick="fun(1)">
+						<img src="img/zhihu.jpg" />
+						<a>知乎</a>
 					</li>
-					<li>
-						<a target="view_window" href="https://segmentfault.com/u/furw">segmentfault 思否</a>
+					<li onclick="fun(2)">
+						<img src="img/wangyiyun.jpg" />
+						<a>网易云音乐</a>
 					</li>
-					<li>
-						<a target="view_window" href="https://my.oschina.net/furw">开原中国</a>
+					<li onclick="fun(3)">
+						<img src="img/github.jpg" />
+						<a>Github</a>
 					</li>
-					<li>
-						<a target=" view_window " href="http://music.163.com/#/user/home?id=69110901">网易云音乐</a>
+					<li onclick="fun(4)">
+						<img src="img/kaiyuan.jpg" />
+						<a>开原中国</a>
 					</li>
-					<li>
-						<a target="view_window " href="https://github.com/furw">Github</a>
+					<li onclick="fun(5)">
+						<img src="img/mayun.jpg" />
+						<a>码云</a>
 					</li>
-					<li>
-						<a target="view_window" href="https://gitee.com/Warehouse">码云</a>
-					</li>
-					<li>
-						<a target="view_window " href="http://www.linkedin.com/in/furuiwei">LinkedIn</a>
+					<li onclick="fun(6)">
+						<img src="img/linkedIn.jpg" />
+						<a>LinkedIn</a>
 					</li>
 				</ul>
 			</div>
-
 		</div>
-
+		
 	</body>
-
 </html>
